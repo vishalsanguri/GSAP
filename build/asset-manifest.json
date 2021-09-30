@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.474b4742.chunk.css",
+    "main.js": "/static/js/main.ca0f0e50.chunk.js",
+    "main.js.map": "/static/js/main.ca0f0e50.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.42158b8f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.42158b8f.js.map",
+    "static/js/2.7680ba91.chunk.js": "/static/js/2.7680ba91.chunk.js",
+    "static/js/2.7680ba91.chunk.js.map": "/static/js/2.7680ba91.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.474b4742.chunk.css.map": "/static/css/main.474b4742.chunk.css.map",
+    "static/js/2.7680ba91.chunk.js.LICENSE.txt": "/static/js/2.7680ba91.chunk.js.LICENSE.txt",
+    "static/media/amazon.9537acd9.png": "/static/media/amazon.9537acd9.png",
+    "static/media/coke.9f528c29.png": "/static/media/coke.9f528c29.png",
+    "static/media/donut.5e4be8a0.png": "/static/media/donut.5e4be8a0.png",
+    "static/media/fries.c6d1d49f.png": "/static/media/fries.c6d1d49f.png",
+    "static/media/handel.5f6ccfdf.png": "/static/media/handel.5f6ccfdf.png",
+    "static/media/App.css": "/static/media/sky.c31c1342.png",
+    "static/media/iphone.d76eabc2.png": "/static/media/iphone.d76eabc2.png",
+    "static/media/iphoneback.7305137a.png": "/static/media/iphoneback.7305137a.png",
+    "static/media/netflix.2b6cfe7a.png": "/static/media/netflix.2b6cfe7a.png",
+    "static/media/tablethand.8f5098d3.png": "/static/media/tablethand.8f5098d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42158b8f.js",
+    "static/js/2.7680ba91.chunk.js",
+    "static/css/main.474b4742.chunk.css",
+    "static/js/main.ca0f0e50.chunk.js"
+  ]
+}

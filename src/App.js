@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./App.css";
+import "./App1.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "./components/iphone.png";
@@ -29,7 +30,19 @@ export default function App() {
       scrollTrigger: {
         trigger: ".orange",
         start: "top bottom",
-        toggleActions: "play none none reset",
+        toggleActions: "play none none reverse",
+      },
+    });
+    gsap.to(".fixed-container3", {
+      opacity: 0,
+      // duration: 5,
+      scrollTrigger: {
+        trigger: ".iphone",
+        markers: true,
+        start: "top bottom",
+        end: "bottom 80%",
+        scrub: true,
+        toggleActions: "play none none reverse",
       },
     });
     gsap.to(".iphone", {
@@ -150,13 +163,6 @@ export default function App() {
     //   opacity: 1,
     //   duration: 3,
     // });
-
-    ScrollTrigger.create({
-      snap: {
-        snapTo: 1 / 4,
-        duration: 0.5,
-      },
-    });
   }, []);
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
@@ -215,6 +221,9 @@ export default function App() {
 
   return (
     <>
+      <div className="fixed-container1"></div>
+      <div className="fixed-container2"></div>
+      <div className="fixed-container3"></div>
       {console.log(state)}
       <div className="pink">
         <div className="con darkpink sail-text">Sail to Sucess</div>
